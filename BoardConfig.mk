@@ -1,8 +1,14 @@
+# Inherit from sm6225-common
+include device/realme/sm6225-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/RMX2195
 BOARD_VENDOR := realme
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-06-05
+
+TARGET_BOOTLOADER_BOARD_NAME := RECE4244
+# Display
+TARGET_SCREEN_DENSITY := 280
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
