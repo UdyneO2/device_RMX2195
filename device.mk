@@ -206,5 +206,7 @@ TARGET_SCREEN_WIDTH := 720
 BOARD_SHIPPING_API_LEVEL := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Inherit vendor
 $(call inherit-product, vendor/realme/RMX2195/RMX2195-vendor.mk)
